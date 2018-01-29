@@ -16,4 +16,6 @@ console.log(third.charAt(third.length-1));
 let searchPosition = first.indexOf('[');
 let searchPosition2 = first.indexOf(']');
 
-console.log(firVar, secVar, thiVar, searchPosition, searchPosition2);
+let allPositions = `firVar ${firVar}, secVar ${secVar}, thiVar ${thiVar}, searchPosition ${searchPosition}, searchPosition2 ${searchPosition2}`;
+
+console.log(allPositions);
